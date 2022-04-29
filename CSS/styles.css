@@ -1,3 +1,21 @@
+:root {
+    /* Google Fonts */
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    
+    /* text colors */
+    --accent-cl: #2196F3;
+    --main-txt-cl: #212121;
+    --secondary-txt-cl: #FFFFFF;
+    
+    /* bacground colors */
+    --main-bg-cl: #FFFFFF;
+    --secondary-bg-cl: #2F303A;
+}
+body {
+    font-family: var(--main-font);
+    background-color: var(--main-bg-cl);
+    }
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -11,15 +29,16 @@
     margin: -1px;
 }
 
-body {
-    
-}
-li {
+.list {
     list-style: none;
 }
-a {
+.link {
     text-decoration: none;
+    color: currentColor;
 }
-.address {
+/* Header */
+/* Main content */
+/* Footer */
+.footer-list {
     font-style: normal;
 }
