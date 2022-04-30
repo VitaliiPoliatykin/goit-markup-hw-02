@@ -115,7 +115,6 @@ body {
 }
 
 .advantages-description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -137,7 +136,6 @@ body {
   letter-spacing: 0.03em;
 }
 .position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.1875;
   text-align: center;
@@ -153,13 +151,11 @@ body {
 }
 .address-link {
   color: var(--secondary-txt-cl);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .footer-link {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -188,7 +184,6 @@ body {
   letter-spacing: 0.06em;
 }
 .project-type {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
