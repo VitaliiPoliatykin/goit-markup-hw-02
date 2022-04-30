@@ -36,7 +36,15 @@ body {
     text-decoration: none;
     color: currentColor;
 }
+.btn {
+    cursor: pointer
+    }
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-cl);
 /* Header */
+
 /* Main content */
 /* Footer */
 .footer-list {
