@@ -39,6 +39,9 @@ body {
 }
 .btn {
   cursor: pointer;
+  border-style: none;
+  font-family: inherit;
+  color: inherit;
 }
 .btn:hover,
 .btn:focus {
@@ -106,6 +109,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -128,6 +135,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.team {
+  background-color: #f5f4fa;
+}
 .photo-title {
   font-weight: 500;
   font-size: 16px;
@@ -141,6 +151,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.team-item {
+  background-color: var(--main-bg-cl);
 }
 /* Footer */
 .footer {
@@ -176,6 +189,7 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  background: #f5f4fa;
 }
 .project-title {
   font-weight: 700;
